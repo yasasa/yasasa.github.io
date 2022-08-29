@@ -4,6 +4,7 @@
 
 layout: home
 image: assets/IMG_2504.jpeg
+permalink: /
 #title: Yasasa Abeysirigoonawardena
 ---
 
