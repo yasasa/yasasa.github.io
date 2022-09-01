@@ -21,7 +21,7 @@
 title: Yasasa Abeysirigoonawardena
 email: contact@yasasa.me
 description: >- # this means to ignore newlines until "baseurl:"
-  Ⓒ Yasasa Abeysirigoonawardena
+  Built ontop of the minima theme with pieces from the al-folio theme. Ⓒ Yasasa Abeysirigoonawardena
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yasasa.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yasasa
