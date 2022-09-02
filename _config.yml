@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yasasa.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yasasa
 github_username:  yasasa
+linkedin_username:
 
 # Build settings
 theme: minima
@@ -33,12 +34,12 @@ plugins:
   - jekyll-feed
   - jekyll/scholar
 
-header_pages:
-  - publications.markdown
-#  - blog.markdown
-  - cv.markdown
-
 include: ['_pages']
+
+header_pages:
+  - _pages/cv.markdown
+  - _pages/blog.markdown
+
 exclude:
   - bin
   - Gemfile

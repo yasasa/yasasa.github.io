@@ -1,7 +1,9 @@
 ---
 layout: page
-title: CV
+title: Resume
 permalink: /cv/
 ---
 
 # Education
+
+Test

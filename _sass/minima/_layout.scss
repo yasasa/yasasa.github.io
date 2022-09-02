@@ -7,7 +7,6 @@
   min-height: $spacing-unit * 1.865;
   width: $header-width;
   align-self: center;
-  font-family: $exo;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -33,7 +32,7 @@
 
 .site-title {
   @include relative-font-size(2);
-  font-weight: 300;
+  font-weight: 600;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -44,11 +43,18 @@
   &:visited {
     color: $brand-color;
   }
+
+  &:hover {
+    text-decoration: none;
+    color: $brand-color;
+  }
 }
 
 .site-nav {
+  @include relative-font-size(1.3);
   float: right;
   line-height: $base-line-height * $base-font-size * 2.51;
+  font-weight: 600;
 
   .nav-trigger {
     display: none;
@@ -66,6 +72,10 @@
     &:not(:last-child) {
       margin-right: 20px;
     }
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   @include media-query($on-palm) {
@@ -73,11 +83,15 @@
     top: 9px;
     right: $spacing-unit / 2;
     background-color: $background-color;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $line-color;
     border-radius: 5px;
     text-align: right;
 
-    label[for="nav-trigger"] {
+    &:hover {
+      display: block;
+    }
+
+    .menu-link {
       display: block;
       float: right;
       width: 36px;
@@ -96,29 +110,34 @@
       text-align: center;
 
       >svg {
-        fill: $grey-color-dark;
+        fill: $line-color;
       }
     }
 
-    input~.trigger {
-      clear: both;
-      display: none;
-    }
-
-    input:checked~.trigger {
+    .hover-menu .trigger {
       display: block;
       padding-bottom: 5px;
+    }
+
+    .trigger {
+      display: block;
     }
 
     .page-link {
       display: block;
       padding: 5px 10px;
+      border: 1px solid $aqua;
+
 
       &:not(:last-child) {
         margin-right: 0;
       }
 
-      margin-left: 20px;
+      margin-left: 10px;
+
+      &:hover {
+        border-bottom: 1px solid $aqua;
+      }
     }
   }
 }
