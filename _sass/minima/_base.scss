@@ -229,6 +229,25 @@ pre {
 }
 
 
+.wrapper-footer {
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit-2} * 2));
+  max-width: calc(#{$content-width} - (#{$spacing-unit-2} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit-2;
+  padding-left: $spacing-unit-2;
+  @extend %clearfix;
+  display: flex;
+
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit-2}));
+    max-width: calc(#{$content-width} - (#{$spacing-unit-2}));
+    padding-right: $spacing-unit-2 / 2;
+    padding-left: $spacing-unit-2 / 2;
+  }
+}
+
+
 
 /**
  * Clearfix
@@ -252,6 +271,16 @@ pre {
   fill: #{$grey-color};
   padding-right: 5px;
   vertical-align: text-top;
+}
+
+.svg-icon-social {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  display: inline-block;
+  fill: #{$grey-color};
+  margin-bottom: 5px;
+  vertical-align: middle;
 }
 
 .social-media-list {

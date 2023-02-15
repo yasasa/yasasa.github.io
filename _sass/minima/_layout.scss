@@ -164,12 +164,20 @@
   margin-bottom: $spacing-unit / 2;
 
   font-family: $silkscreen;
+  margin-right: 5px;
+}
+
+.contact-list-wrapper{
+  float: none;
+  display: flex;
 }
 
 .contact-list,
 .social-media-list {
   list-style: none;
   margin-left: 0;
+  margin-right: 5px;
+  display:flex;
 }
 
 .footer-col-wrapper {

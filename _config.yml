@@ -20,11 +20,10 @@
 
 title: Yasasa Abeysirigoonawardena
 email: contact@yasasa.me
-description: >- # this means to ignore newlines until "baseurl:"
-  This site was built using custom styling on top of the minima and al-folio themes.
+description: #>- This site was built using custom styling on top of the minima and al-folio themes.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yasasa.me" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: yasasa
+#twitter_username: yasasa
 github_username:  yasasa
 linkedin_username:
 
@@ -36,8 +35,8 @@ plugins:
 
 include: ['_pages']
 
-header_pages:
-  - _pages/cv.markdown
+#header_pages:
+#  - _pages/cv.markdown
 #  - _pages/blog.markdown
 
 exclude:
