@@ -38,7 +38,7 @@ include: ['_pages']
 
 header_pages:
   - _pages/cv.markdown
-  - _pages/blog.markdown
+#  - _pages/blog.markdown
 
 exclude:
   - bin
