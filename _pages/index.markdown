@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-image: assets/IMG_2504.jpeg
+image: assets/headshot.jpeg
 permalink: /
 #title: Yasasa Abeysirigoonawardena
 ---
