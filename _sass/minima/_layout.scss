@@ -41,12 +41,12 @@
 
   &,
   &:visited {
-    color: $brand-color;
+    color: $text-color;
   }
 
   &:hover {
     text-decoration: none;
-    color: $brand-color;
+    color: $text-color;
   }
 }
 
