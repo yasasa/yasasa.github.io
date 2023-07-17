@@ -13,7 +13,7 @@ working on improving simulation for robotics. Prior to this I worked as a Softwa
 for 2 years working primarily on the creation of high fidelity LiDAR simulations in the Unity game engine.
 
 During my undergraduate studies I worked on
-developing advesarial scenarios for autonomous driving under the supervision of Prof. Gregory Dudek and
+developing adversarial scenarios for autonomous driving under the supervision of Prof. Gregory Dudek and
 Prof. Florian Shkurti, currently my research is focused on extending this work.
 
 Since I am doing my research in simulation, I am naturally interested in topics from
